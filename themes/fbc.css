@@ -1,0 +1,86 @@
+/* 
+@theme fbc
+*/
+
+section {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "Apple Color Emoji","Segoe UI Emoji", sans-serif;
+  font-size: 32px;
+  background-color: #3c3298;
+  color: #eeeeee;
+  line-height: 1.35;
+  letter-spacing: 1.25px;
+  padding: 60px;
+  background-image: url(./images/bg.png);
+  background-size: cover;
+}
+
+section.lead {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  color: #eeeeee;
+}
+
+h1 {
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5em 0 0 0;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+p,
+blockquote {
+  margin: 1em 0 0 0;
+}
+
+li {
+  margin: 0.3em 0 0 0;
+}
+
+li p {
+  margin: 0.6em 0 0 0;
+}
+
+code {
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8em;
+  letter-spacing: 0;
+  margin: -0.1em 0.15em;
+  padding: 0.1em 0.2em;
+  vertical-align: baseline;
+}
